@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <h3>Biodata</h3>
+        <title>Biodata</title>
+    </head>
+    <body align="left">
+        <form>
+            <table align ="left"border="0">
+                <tr>
+            <th align="left"><label for="nama">Nama:</label></th>
+            <th>:</th>
+            <th align="left"><input type="text" size="25" name="nama" id="nama"/></th>
+                </tr>
+                <tr>
+                    <th align="left"><label for="tempat tanggal lahir">Tempat Tanggal Lahir:</label></th>
+                    <th>:</th>
+                    <th align="left"><input type="text" size="25" name="tempat tanggal lahir" id="tempat tanggal lahir"/></th>
+                </tr> 
+            
+        </form>
+
+        <tr>
+            <th align="left"><label for="program">Pilih Jurusanmu</label></th>
+            <th>:</th>
+            <th align="left"><select name="program" id="program"> <!--untuk membuat multiple choice!-->
+                <option value="">Pilih jurusan</option>
+                <option value="Multimedia">Multimedia</option>
+                <option value="TKJ">TKJ</option>
+                <option value="RPL">RPL</option>
+                <option value="Mastering CMS">Mastering CMS</option>
+                <option value="Print Design">Print Design</option>
+            </select></th>
+        </tr>
+           
+            
+            <tr>
+                <th align="left"><label for="msg">Alamat</label></form></th>
+                <th>:</th>
+                <th align="left"><textarea name="msg" cols="40" rows="5"></textarea><br/><br/></th>
+            </tr>
+            
+            <tr>
+                <th align="left"><label for="gender"><b>Jenis Kelamin</b></label></th>
+                <th>:</th>
+                <th align="left"> <input type="radio" name="jkl" id="man" value="man"> 
+                    <label for="man">Pria</label>
+                    <input type="radio" name="jkl" id="woman" value="woman"> 
+                    <label for="woman">Wanita</label>
+                    <input type="radio" name="jkl" id="lainnya" value="lainnya"> 
+                    <label for="man">lainnya</label>
+
+                   </th>
+            
+
+            <tr>
+                <th align="left"><label for="Agama">Agama:</label></th>
+                <th>:</th>
+                <th align="left"><select name="Agama" id="Agama"><!--untuk membuat multiple choice!-->
+                    <option value="">Pilih Agama</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Khatolik">Khatolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Konghucu">Konghucu</option>
+                    <option value="Budha">Konghucu</option><br/>
+                </select></th>
+            </tr>
+            
+
+            <tr>
+                <th align="left"><label for="no telepon">No Telepon:</label></th>
+                <th>:</th>
+                <th align="left"><input type="text" size="25" name="no telepon" id="no telepon"/><br/></th>
+            </tr>
+
+            <tr>
+                <th align="left"><label for="Hobi">Hobi:</label></th>
+                <th>:</th>
+                <th align="left"><input type="checkbox" name="hobby[]" id="bacabuku" value="Baca Buku"/>
+        <label for= "bacabuku">Baca Buku</label>
+        <input type="checkbox" name="hobby[]" id="ngoding" value="Ngoding"/>
+        <label for="ngoding">Ngoding</label>
+        <input type="checkbox" name="hobby[]" id="berkebun" value="Berkebun"/>
+        <label for="berkebun">Berkebun</label></th>
+    </tr>
+</table>
+    </body>
+</html>
